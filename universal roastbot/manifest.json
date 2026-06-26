@@ -1,0 +1,14 @@
+
+{
+  "manifest_version": 3,
+  "name": "RoastBot Universal (Beta)",
+  "version": "2.0",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
